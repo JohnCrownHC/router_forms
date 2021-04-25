@@ -14,9 +14,9 @@ const StepOne = () => {
   const [passwordValid, setPasswordValid] = useState(true)
 
   const passwordHandler = (e) => {
-    const regex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+    const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
 
-    setPasswordValid(password.match(regex));
+    setPasswordValid(regex.test(e.target.value));
     setPassword(e.target.value);
   }
 
@@ -24,15 +24,14 @@ const StepOne = () => {
     const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 
     setEmail(e.target.value);
-    setEmailValid(email.match(regex));
+    setEmailValid(regex.test(e.target.value));
   }
 
   const nameHandler = (e) => {
-    console.log(name);
     const regex = /^(?=[a-zA-Z0-9._]{8,20}$)(?!.*[_.]{2})[^_.].*[^_.]$/
 
     setName(e.target.value);
-    setNameValid(name.match(regex));
+    setNameValid(regex.test(e.target.value));
   }
 
   const buttonChecker = () => {
@@ -85,6 +84,16 @@ const StepOne = () => {
       >
         <Link className="step-one__link" to='/step/2'>
           Next step!
+        </Link>
+      </Button>
+      <Button
+        variant="contained"
+        color="secondary"
+        size="large"
+        type="button"
+      >
+        <Link className="step-one__link" to='/router_forms'>
+          Go back
         </Link>
       </Button>
     </form>

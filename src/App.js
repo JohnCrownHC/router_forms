@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/router_forms'>
             <Welcome />
           </Route>
           <Route path='/step/1'>
