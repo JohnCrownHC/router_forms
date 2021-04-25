@@ -1,0 +1,15 @@
+.step-one {
+  margin-top: 150px;
+  display: grid;
+  gap: 15px;
+  place-items: center;
+
+  &__field {
+    width: 40%;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+  }
+}

@@ -1,0 +1,52 @@
+.welcome {
+  margin-top: 150px;
+  display: grid;
+  place-items: center;
+
+  &__heading {
+    text-transform: uppercase;
+    color: #f4511e;
+    -webkit-text-stroke: 1px #000;
+  }
+
+  &__button {
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #f4511e;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    &:hover .welcome__link {
+      padding-right: 25px;
+    }
+
+    &:hover .welcome__link::after {
+      opacity: 1;
+      right: 0;
+    }
+  }
+
+  &__link {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: #fff;
+    text-decoration: none;
+
+    &::after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+  }
+}
