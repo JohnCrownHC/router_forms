@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.js": "/router_forms/static/js/main.9a509f7a.chunk.js",
-    "main.js.map": "/router_forms/static/js/main.9a509f7a.chunk.js.map",
+    "main.css": "/router_forms/static/css/main.2755a7cd.chunk.css",
+    "main.js": "/router_forms/static/js/main.a5d39585.chunk.js",
+    "main.js.map": "/router_forms/static/js/main.a5d39585.chunk.js.map",
     "runtime-main.js": "/router_forms/static/js/runtime-main.386b7184.js",
     "runtime-main.js.map": "/router_forms/static/js/runtime-main.386b7184.js.map",
-    "static/js/2.7be5b597.chunk.js": "/router_forms/static/js/2.7be5b597.chunk.js",
-    "static/js/2.7be5b597.chunk.js.map": "/router_forms/static/js/2.7be5b597.chunk.js.map",
+    "static/js/2.196f9a7a.chunk.js": "/router_forms/static/js/2.196f9a7a.chunk.js",
+    "static/js/2.196f9a7a.chunk.js.map": "/router_forms/static/js/2.196f9a7a.chunk.js.map",
     "index.html": "/router_forms/index.html",
-    "static/js/2.7be5b597.chunk.js.LICENSE.txt": "/router_forms/static/js/2.7be5b597.chunk.js.LICENSE.txt"
+    "static/css/main.2755a7cd.chunk.css.map": "/router_forms/static/css/main.2755a7cd.chunk.css.map",
+    "static/js/2.196f9a7a.chunk.js.LICENSE.txt": "/router_forms/static/js/2.196f9a7a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.386b7184.js",
-    "static/js/2.7be5b597.chunk.js",
-    "static/js/main.9a509f7a.chunk.js"
+    "static/js/2.196f9a7a.chunk.js",
+    "static/css/main.2755a7cd.chunk.css",
+    "static/js/main.a5d39585.chunk.js"
   ]
 }
