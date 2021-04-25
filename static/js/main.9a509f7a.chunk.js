@@ -1,0 +1,2 @@
+(this.webpackJsonprouter_forms=this.webpackJsonprouter_forms||[]).push([[0],{9:function(e,r,t){"use strict";t.r(r);var c=t(1),n=t.n(c),s=t(3),o=t.n(s),i=t(0);var a=function(){return Object(i.jsx)("div",{className:"App",children:Object(i.jsx)("h1",{children:"Hello!"})})};o.a.render(Object(i.jsx)(n.a.StrictMode,{children:Object(i.jsx)(a,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.9a509f7a.chunk.js.map
